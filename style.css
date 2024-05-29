@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@500;700&family=Merriweather:ital,wght@1,700&family=Montserrat:wght@800&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@800&family=PT+Sans&family=Poppins:ital,wght@0,300;1,300&family=Roboto+Condensed&family=Roboto+Slab&family=Teko:wght@600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.topo{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.topo img{
+    height: 59px;
+}
+
+.topo ul{
+    list-style: none;
+    display: flex;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.topo li{
+    padding: 0 8px;
+}
+
+.capa{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('assets/img/bg-estacao.jpg');
+    background-repeat: no-repeat;
+    
+  
+   
+}
+
+.capa::before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    display: flex;
+    height: 250px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    color: aliceblue;
+}
+
+h1{
+    z-index: 1;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px black;
+    
+  
+    
+}
+
+.capa p{
+    margin: 0;
+    z-index: 1;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px black;
+    font-weight: bold;
+}
+
+.caixa{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container-texto p::first-letter, .container-3 p::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.container-texto p{
+    text-align: left;
+}
+
+.container-3  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container-3{
+    width: 100%;
+}
+
+
+.container-3 ul{
+   
+    width: 800px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+ 
+}
+
+.container-3 ul li{
+    display: flex;
+    margin: 12px 0 0px 0px;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.container-3 ul li::before{
+    content: "";
+   
+    height:20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background: url("assets/img/seta.png");
+ 
+   
+}
+
+
+
+.container-1 img, .container-2 img, .container-3 img{
+    width: 1000px;
+    
+    
+}
+
+.container-4{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container-imagem{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    height: 400px;
+    padding: 0;
+    flex-wrap: wrap;
+   
+}
+
+.container-4 img{
+    padding: 4px;
+    height: 200px;
+    width: 324px;
+    opacity: 0.6;
+
+    
+}
+
+.container-4 img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.container-4 p{
+    text-align: left;
+}
+
+.rodape{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.container-2{
+    background-color: #e9e9e9;
+}
